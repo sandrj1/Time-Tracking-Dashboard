@@ -114,7 +114,7 @@ btnDaily.onclick = function () {
                     dailyCards += `
                         <h3>${data[i].timeframes.daily.current}hrs
                         </h3>
-                        <p>Last Week - ${data[i].timeframes.daily.previous}hrs</p>`;
+                        <p>Yesterday - ${data[i].timeframes.daily.previous}hrs</p>`;
                     section[i].innerHTML = dailyCards;
                 }
             }
@@ -153,7 +153,7 @@ btnMonthly.onclick = function () {
                     monthlyCards += `
                         <h3>${data[i].timeframes.monthly.current}hrs
                         </h3>
-                        <p>Last Week - ${data[i].timeframes.monthly.previous}hrs</p>`;
+                        <p>Last Month - ${data[i].timeframes.monthly.previous}hrs</p>`;
                     section[i].innerHTML = monthlyCards;
                 }
             }
