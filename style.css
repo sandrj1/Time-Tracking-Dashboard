@@ -277,6 +277,8 @@ section p {
     body{
         display: flex;
         justify-content: center;
+        margin: 0;
+        margin-top: 2.5em;
         transform: translateY(-1em);
     }
 
